@@ -16,6 +16,7 @@ namespace Scp053
         public override string Author => "Enterr";
         public override Version Version => new Version(0,1,1);
         public override Version RequiredExiledVersion => new Version(3,0,0);
+        public override Version RequiredExiledVersion => new Version(8,9,0);
         public override void OnEnabled()
         {
             Instance = this;
